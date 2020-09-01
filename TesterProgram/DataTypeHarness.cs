@@ -19,6 +19,9 @@ namespace TesterProgram
 
             Login l1 = new Login("czuniga989", "bigbadbabbies");
             Console.WriteLine(l1);
+
+            ContactInfo c1 = new ContactInfo("3919 Independance BLVD", "Kansas City", "Kansas", "66109", "(913)867-5309", "emailthis@hotmail");
+            Console.WriteLine(c1);
         }
     }
 }
