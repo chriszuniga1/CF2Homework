@@ -16,6 +16,9 @@ namespace TesterProgram
 
             Vehicle v1 = new Vehicle("Toyota", "Prius", 2015, 2900);
             Console.WriteLine(v1);
+
+            Login l1 = new Login("czuniga989", "bigbadbabbies");
+            Console.WriteLine(l1);
         }
     }
 }
