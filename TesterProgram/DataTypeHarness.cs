@@ -14,6 +14,8 @@ namespace TesterProgram
             Students s1 = new Students("Christina", "Zuniga", "123456", 3.9f);
             Console.WriteLine(s1);
 
+            Vehicle v1 = new Vehicle("Toyota", "Prius", 2015, 2900);
+            Console.WriteLine(v1);
         }
     }
 }
