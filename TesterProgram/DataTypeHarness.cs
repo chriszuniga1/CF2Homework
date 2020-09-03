@@ -31,6 +31,11 @@ namespace TesterProgram
 
             Book b1 = new Book("The Joy of Programing", "Michael Zuniga", 50231);
             Console.WriteLine(b1);
+            List<Book> Books = new List<Book>() { b1 };
+
+            Library lb1 = new Library(Books, "ParkHill Library", "12354 Happy Street", "Kansas City", "Kansas", "66025");
+            Console.WriteLine(lb1);
+
         }
     }
 }
