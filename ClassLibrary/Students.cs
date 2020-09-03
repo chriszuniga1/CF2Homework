@@ -49,7 +49,7 @@ namespace ClassLibrary
 
         public override string ToString()
         {
-            return string.Format("Student:\nFirstName: {0:}\nLastName: {1}\nID: {2}\nGPA: {3}", FirstName, LastName, Id, GPA);
+            return string.Format("Student:\nFirstName: {0}\nLastName: {1}\nID: {2}\nGPA: {3}", FirstName, LastName, Id, GPA);
         }
     }
 }

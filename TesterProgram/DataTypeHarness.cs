@@ -22,6 +22,12 @@ namespace TesterProgram
 
             ContactInfo c1 = new ContactInfo("3919 Independance BLVD", "Kansas City", "Kansas", "66109", "(913)867-5309", "emailthis@hotmail");
             Console.WriteLine(c1);
+
+            Customer cus1 = new Customer("123456", "Christina", "Zuniga", c1);
+            Console.WriteLine(cus1);
+
+            CreditCardAccount cc1 = new CreditCardAccount(12545235, cus1, 50, true, 15);
+            Console.WriteLine(cc1);
         }
     }
 }

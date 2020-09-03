@@ -65,7 +65,7 @@ namespace ClassLibrary
 
         public override string ToString()
         {
-            return string.Format("Contact Information:\nStreetAddress: {0:}\nCity: {1}\nState: {2}\nZip: {3}\nPhone {4}\nEmail {5}", StreetAddress, City, State, Zip, Phone, Email);
+            return string.Format("\nStreetAddress: {0:}\nCity: {1}\nState: {2}\nZip: {3}\nPhone {4}\nEmail {5}", StreetAddress, City, State, Zip, Phone, Email);
         }
 
     }
