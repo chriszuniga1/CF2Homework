@@ -28,6 +28,9 @@ namespace TesterProgram
 
             CreditCardAccount cc1 = new CreditCardAccount(12545235, cus1, 50, true, 15);
             Console.WriteLine(cc1);
+
+            Book b1 = new Book("The Joy of Programing", "Michael Zuniga", 50231);
+            Console.WriteLine(b1);
         }
     }
 }
