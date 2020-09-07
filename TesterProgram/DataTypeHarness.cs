@@ -29,12 +29,18 @@ namespace TesterProgram
             CreditCardAccount cc1 = new CreditCardAccount(12545235, cus1, 50, true, 15);
             Console.WriteLine(cc1);
 
-            Book b1 = new Book("The Joy of Programing", "Michael Zuniga", 50231);
+            Book b1 = new Book("The Joy of Programing", "Michael Zuniga", 621);
             Console.WriteLine(b1);
             List<Book> Books = new List<Book>() { b1 };
 
             Library lb1 = new Library(Books, "ParkHill Library", "12354 Happy Street", "Kansas City", "Kansas", "66025");
             Console.WriteLine(lb1);
+
+            Song sg1 = new Song("Barnes & Barnes", "Fish Heads", 146);
+            Console.WriteLine(sg1);
+
+            Artist a1 = new Artist("The Firm", "Star Trekking'", 212, "Novelty Song");
+            Console.WriteLine(a1);
 
         }
     }
